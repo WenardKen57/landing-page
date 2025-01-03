@@ -30,3 +30,19 @@
 #header-logo {
   font-size: 30px;
 }
+
+.wrapper .header .banner {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.wrapper .banner .about-head {
+  width: 400px;
+}
+
+#image-placeholder {
+  width: 500px;
+  height: 250px;
+}
