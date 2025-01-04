@@ -5,6 +5,11 @@
   font-family: Roboto;
 }
 
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
 .wrapper .header {
   background-color: #1F2937;
   color: white;
@@ -52,7 +57,7 @@
   gap: 10px;
 }
 
-.wrapper .banner #hero-main-text {
+.hero-main-text {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
@@ -124,3 +129,37 @@
   text-align: end;
   font-style: normal;
 }
+
+.content .signup {
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .signup .signup-container {
+  height: 150px;
+  width: 1000px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.content .signup .signup-container div {
+  padding: 50px;
+}
+
+.content .signup .signup-container #signup-button {
+  padding: 10px 30px;
+  color: #e5e7eb;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background-color: #3882f6;
+  font-weight: bold;
+}
+
