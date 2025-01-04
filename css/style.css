@@ -5,6 +5,11 @@
   font-family: Roboto;
 }
 
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb
+}
+
 .wrapper .header {
   background-color: #1F2937;
   color: white;
@@ -70,5 +75,6 @@
   color: white;
   padding: 10px 30px;
   border-radius: 10px;
+  border: none;
 }
 
