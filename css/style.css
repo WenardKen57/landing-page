@@ -163,3 +163,11 @@
   font-weight: bold;
 }
 
+.wrapper .footer {
+  background-color: #1F2937;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+  color: #e5e7eb;
+}
+
