@@ -78,3 +78,30 @@
   border: none;
 }
 
+.wrapper .content #random-header {
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.wrapper .content .random-info {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.wrapper .content .random-info .box-container {
+  width: 200px;
+}
+
+.wrapper .content .random-info .box-container .box {
+  border: 5px solid #3882f6;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.wrapper .content .random-info .box-container p {
+  text-align: center;
+}
