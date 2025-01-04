@@ -5,11 +5,6 @@
   font-family: Roboto;
 }
 
-.secondary-text {
-  font-size: 18px;
-  color: #e5e7eb
-}
-
 .wrapper .header {
   background-color: #1F2937;
   color: white;
@@ -85,9 +80,11 @@
 }
 
 .wrapper .content .random-info {
+  height: 400px;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  align-items: center;
+  gap: 50px;
 }
 
 .wrapper .content .random-info .box-container {
@@ -104,4 +101,26 @@
 
 .wrapper .content .random-info .box-container p {
   text-align: center;
+}
+
+.wrapper .content .quote {
+  background-color: #e5e7eb;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .content .quote p {
+  color: #1F2937;
+  font-size: 36px;
+  width: 800px;
+  font-style: italic;
+}
+
+.wrapper .content .quote #author {
+  font-size: 27px;
+  text-align: end;
+  font-style: normal;
 }
