@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: n;
 }
 
 .wrapper .header {
@@ -10,7 +11,7 @@
 }
 
 .wrapper .header .navigation {
-  padding: 15px;
+  padding: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -23,26 +24,51 @@
 }
 
 .wrapper .header .navigation ul li a {
+  font-size: 18px;
   text-decoration: none;
   color: white;
 }
 
 #header-logo {
-  font-size: 30px;
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 .wrapper .header .banner {
+  height: 500px;
   padding: 50px;
+  font-size: 18px;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 
 .wrapper .banner .about-head {
   width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.wrapper .banner #hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
 }
 
 #image-placeholder {
   width: 500px;
   height: 250px;
 }
+
+#hero-main-button {
+  background-color: #3882f6;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
